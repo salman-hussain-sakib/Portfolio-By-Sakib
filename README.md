@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Salman Hussain Sakib | Full Stack Portfolio
 
-## Getting Started
+Welcome to my official portfolio repository! This is a high-performance, futuristic personal portfolio website built using **Next.js**, **Tailwind CSS**, and **JavaScript**.
 
-First, run the development server:
+## ✨ Features
 
+- 🌌 **Futuristic UI/UX**: A modern, high-tech design featuring a neural HUD interface and sleek gradients.
+- 👨‍💻 **Dynamic Hero Section**: Interactive hero section with a high-definition professional profile image and smooth grayscale-to-color transitions.
+- 🛠️ **Skills & Tech Stack**: Organized display of technical proficiency with animated progress bars.
+- 📂 **Project Showcase**: A curated list of live projects including:
+  - **KeenKeeper** (Productivity App)
+  - **DigiTools** (Utility Suite)
+  - **TechWave** (E-Commerce)
+  - **GitHub Issues Tracker** (Dev Tool)
+  - **Architects** (Architecture Portfolio)
+- 📱 **Fully Responsive**: Optimized for all screen sizes, from mobile devices to large desktops.
+- 📄 **Direct CV Download**: Easily accessible professional resume in PDF format.
+- 📧 **Contact Integration**: Functional contact form and direct links to social media platforms (GitHub, LinkedIn, Facebook, X).
+
+## 🛠️ Tech Stack
+
+- **Core**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Logic**: JavaScript (ES6+)
+- **Icons**: FontAwesome 6
+- **Fonts**: Inter & Fira Code (via Google Fonts)
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/salman-hussain-sakib/portfolio-sakib.git
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📄 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is open-source and available under the [MIT License](LICENSE).
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by **Salman Hussain Sakib** in Bangladesh 🇧🇩
