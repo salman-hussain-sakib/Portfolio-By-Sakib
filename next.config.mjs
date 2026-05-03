@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/index.html',
+        destination: '/home.html',
       },
     ];
   },
