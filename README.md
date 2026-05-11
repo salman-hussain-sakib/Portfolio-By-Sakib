@@ -3,6 +3,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-🚀-6366f1?style=for-the-badge)](https://your-live-link.com)
 
 Welcome to the source code of my official portfolio! This is a high-performance, futuristic personal portfolio website featuring a neural HUD interface, glassmorphism, and smooth Framer Motion animations.
 
