@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000 !important;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+/* Custom Cursor Base */
+* {
+  cursor: none;
+}
+
+/* Restore the 'hand' pointer for links and buttons as requested */
+a, button, .btn, input[type="submit"], input[type="button"], .card-clean {
+  cursor: pointer !important;
+}
+
+/* Hide default scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #00FF00;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes reverse-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; text-shadow: 0 0 15px #00FF00; }
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Background Spotlight Reveal */
+#mouse-spotlight {
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.2) 0%, rgba(16, 185, 129, 0.05) 30%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+/* Hover States for Custom Cursor */
+body.cursor-hover #cursor-ring {
+  width: 60px !important;
+  height: 60px !important;
+  background-color: rgba(16, 185, 129, 0.1);
+  border-color: #10b981;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+body.cursor-hover #cursor-dot {
+  transform: translate(-50%, -50%) scale(2.5);
+  background-color: #10b981;
+}
+
+/* Section Transparency */
+section {
+  background: transparent !important;
+}
+
+/* Content visibility over animation */
+.card-clean {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-clean:hover {
+  border-color: rgba(0, 255, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Utility Animations */
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+.animate-reverse-spin {
+  animation: reverse-spin 8s linear infinite;
+}

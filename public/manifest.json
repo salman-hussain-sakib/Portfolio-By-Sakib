@@ -1,0 +1,17 @@
+{
+  "name": "Salman Hussain Sakib | Portfolio",
+  "short_name": "Sakib's Portfolio",
+  "start_url": "/portfolio.html",
+  "display": "standalone",
+  "background_color": "#050510",
+  "theme_color": "#6366f1",
+  "description": "Portfolio of Salman Hussain Sakib \u2013 Full Stack Web Developer",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
